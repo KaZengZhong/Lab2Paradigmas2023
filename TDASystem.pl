@@ -1,3 +1,5 @@
+:- module(tdasystem, [system/2, systemAddDrive/5, systemRegister/3, systemLogin/3, systemLogout/2, systemSwitchDrive/3]).
+
 % TDA system - constructor
 % Constructor de un sistema
 system(Nombre, system(Nombre, Fecha, nada, nada, [], [])) :-
