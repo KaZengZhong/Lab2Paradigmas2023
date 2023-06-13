@@ -1,0 +1,21 @@
+TDA system	Evaluación
+Constructor	1
+AddDrive	1
+Register	1
+Login		1
+Logout		1
+Switch-drive	0.75
+Mkdir 		0
+Cd		0
+Add-file	0
+Del		0
+Copy		0
+Move		0
+Ren		0
+Dir 		0
+Format		0
+Encrypt		0
+Decrypt		0
+Grep		0
+View-trash	0
+Restore		0
