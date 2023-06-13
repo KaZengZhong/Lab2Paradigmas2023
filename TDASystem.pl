@@ -1,7 +1,7 @@
 
 % TDA system - constructor
 % Constructor de un sistema
-system(Nombre, system(Nombre, Fecha, none, [], [])) :-
+system(Nombre, system(Nombre, Fecha, nada, [], [])) :-
     get_time(Timestamp),
     stamp_date_time(Timestamp, DateTime, local),
     format_time(string(Fecha), '%Y-%m-%d', DateTime).
@@ -25,4 +25,7 @@ systemLogin(system(Nombre, Fecha, _, Usuarios, Unidades), NombreUsuario,
             system(Nombre, Fecha, usuario(NombreUsuario), Usuarios, Unidades)):-
     member(usuario(NombreUsuario), Usuarios).
 
+% TDA system - logout
+% Cierra sesion
+systemLogout(system(Nombre, Fecha, _, Usuarios, Unidades), system(Nombre, Fecha, nada, Usuarios, Unidades)).
 
