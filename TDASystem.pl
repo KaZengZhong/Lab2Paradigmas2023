@@ -1,4 +1,3 @@
-
 % TDA system - constructor
 % Constructor de un sistema
 system(Nombre, system(Nombre, Fecha, nada, nada, [], [])) :-
